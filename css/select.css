@@ -48,7 +48,7 @@
     /*background: #fff url(right_arrow.png) no-repeat 200px center;*/
   }
 .radio-options .toggle:after {
-    content: url(//omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/right_arrow.png);
+    content: url(http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/right_arrow.png);
     width: 17px;
     height: 17px;
     display: inline-block;
@@ -129,7 +129,7 @@
     color: #fff;
 }
 .radio-options input:checked ~ label span {
-    background-image: url(//omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/left_arrow.png);
+    background-image: url(http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/left_arrow.png);
 }
 
 /* 设置滚动条整体的样式 */
