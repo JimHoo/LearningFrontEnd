@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>间歇性向左无缝滚动</title>
+	<style type="text/css">
+		*{
+			margin: 0;padding: 0;
+		}
+		#scrollBox{
+			font-size: 0;/* 去除行内块级元素换行符间隙 */
+			width: 300px;
+			height: 50px;
+			line-height:50px;/*垂直居中*/
+			margin: 0 auto;
+			background-color: #eee;
+			border: 1px solid red;
+			white-space: nowrap;/*不换行*/
+			overflow: hidden;
+		}
+		span{
+			display: inline-block;
+		}
+		a{
+			text-decoration: none;
+			display: inline-block;
+			border: 1px solid blue;
+			margin: 0 10px;
+			font-size: 17px;
+			width: 180px;
+			text-align: center;
+		}
+		a:hover{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+<div id="scrollBox">
+	<span id="con1"><a href="#">1.随手一写就是八字</a><a href="#">2.顶顶顶顶顶顶顶的</a><a href="#">3.少时诵诗书所所所</a></span>
+	<span id="con2"></span>
+</div>
+<script type="text/javascript">
+	var timer=null;
+	var box=document.getElementById("scrollBox");
+	var con1=document.getElementById("con1");
+	var con2=document.getElementById("con2");
+	con2.innerHTML=con1.innerHTML;
+	function scroll()
+	{
+
+		if (box.scrollLeft>=con1.scrollWidth)
+		{
+			box.scrollLeft=0;
+		}
+		else
+		{
+			box.scrollLeft++;
+		}
+	}
+	var speed=17;
+	timer=setInterval("scroll()",speed);
+
+
+	box.onmouseover=function()
+	{
+		clearInterval(timer);
+	}
+	box.onmouseout=function()
+	{
+		timer=setInterval("scroll()",speed);
+	}
+</script>
+</body>
+</html>
