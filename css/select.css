@@ -26,6 +26,7 @@
   max-height: 20em;
   overflow-x: hidden;
   overflow-y: auto;
+  transition: 0.3s;
 }
 .radio-options:hover .toggle:after {
     transform:rotate(-90deg);
