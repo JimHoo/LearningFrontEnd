@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS_Tab1-2</title>
+<style type="text/css">
+#box {
+    display: inline-block;
+}
+#tab-nav a {
+    text-decoration:none;
+    border:1px solid #999; 
+}
+#tab-content {
+    width:150px; 
+    height:100px; 
+    border:1px solid #999; 
+}
+#tab-content > div {
+    display: none;
+}
+#tab-content > div:target {
+    display: inline-block;
+    width:100%; 
+    height:100px;
+}
+</style>
+</head>
+<body>
+    <div id="box">
+        <div id="tab-nav">
+            <a href="#t1">tab1</a>
+            <a href="#t2">tab2</a>
+            <a href="#t3">tab3</a>
+        </div>
+        <div id="tab-content">
+            <div id="t1">page1</div>
+            <div id="t2">page2</div>
+            <div id="t3">page3</div>
+        </div>
+    </div>
+</body>
+</html>
