@@ -149,46 +149,46 @@ a:hover {
     margin: 10px auto;
     overflow: hidden;
 }
-#content .categories {
+#content .catalog {
     float: left;
     width: 187px;
     border: 1px solid #6E6E6E;
     margin-right: 11px;
 }
-#content .categories h4 {
+#content .catalog h4 {
     height: 30px;
     line-height: 30px;
     text-indent: 1em;
     background-color: #6E6E6E;
     color: #fff;
 }
-#content .categories h5 {
+#content .catalog h5 {
     margin: 20px 1em 4px;
     border-bottom: 1px solid #ccc;
 }
-#content .categories ul {
+#content .catalog ul {
     clear: both;
 }
-#content .categories li {
+#content .catalog li {
     display: inline-block;
     width: 79px;
     height: 26px;
     line-height: 26px;
     text-indent: 1em;
 }
-#content .categories li a {
+#content .catalog li a {
     font-size: 14px;
     text-decoration: none;
 }
-#content .slide-show {
+#content .image-roll {
     float: left;
     position: relative;
     margin-right: 10px;
 }
-#content .slide-show img {
+#content .image-roll img {
     display: block;
 }
-#content .slide-show ul {
+#content .image-roll ul {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -196,7 +196,7 @@ a:hover {
     font-size: 0;
     -webkit-text-size-adjust:none;
 }
-#content .slide-show ul li {
+#content .image-roll ul li {
     display: inline-block;
     width: 109px;
     height: 42px;
@@ -208,22 +208,23 @@ a:hover {
     opacity: .6;
     cursor: pointer;
 }
-#content .sale {
+#content .notice {
     float: left;
+}
+#content .notice img {
     margin-bottom: 10px;
 }
-#content .recent-news {
-    float: left;
+#content .news {
     width: 228px;
     border: 1px solid #ccc;
 }
-#content .recent-news h5 {
+#content .news h5 {
     height: 20px;
     line-height: 20px;
     text-indent: 1em;
     border-bottom: 1px solid #ccc;
 }
-#content .recent-news ul li {
+#content .news ul li {
     height: 22px;
     line-height: 22px;
     font-size: 14px;
