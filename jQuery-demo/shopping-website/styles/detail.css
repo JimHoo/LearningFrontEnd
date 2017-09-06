@@ -162,7 +162,7 @@ a:hover {
     border: 1px solid #6e6e6e;
     margin-right: 11px;
 }
-.catalog h4 {
+#content .catalog h4 {
     height: 30px;
     line-height: 30px;
     text-indent: 1em;
@@ -200,189 +200,128 @@ a:hover {
     width: 21px;
     height: 16px;
 }
-#content .image-roll {
+#content .item {
     float: left;
-    position: relative;
-    width: 550px;
-    height: 320px;
-    margin-right: 10px;
-    overflow: hidden;
+    width: 312px;
 }
-#content .image-roll img {
+#content .item .big-img {
+    border: 1px solid #ddd;
+    float: left;
+}
+#content .item .show-thickbox {
+    display: block;
+    clear: both;
+    padding: 10px 0;
+    text-align: center;
+}
+#content .item .small-img-list {
+    margin-bottom: 10px;
+}
+#content .item .small-img-list li{
+    float: left;
+}
+#content .item .small-img-list li.hide {
     display: none;
-    position: absolute;
+}
+#content .item .small-img-list img {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    margin: 0 2px;
+    border: 1px solid #fff;
     cursor: pointer;
 }
-#content .image-list img:first-child {
-    display: block;
+#content .item .small-img-list img:hover {
+    border: 1px solid #999;
 }
-#content .image-roll > div {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    font-size: 0;
-    -webkit-text-size-adjust:none;
+#content .product-tab {
+    width: 310px;
+    height: 230px;
+    overflow: hidden;
 }
-#content .image-roll > div a {
+#content .tab-menu li {
     display: inline-block;
-    width: 109px;
-    height: 42px;
-    margin-right: 1px;
+    padding: 2px 4px;
+    border: 1px solid #898989;
     text-align: center;
-    text-decoration: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+#content .tab-menu li.selected {
     color: #fff;
-    background-color: #444;
-    font-size: 12px;
-    opacity: .7;
-    cursor: pointer;
+    background-color: #6d84b4;
 }
-#content .image-roll > div a.last {
-    width: 110px;
-    margin-right: 0;
+#content .tab-box {
+    border: 1px solid #898989;
 }
-#content .image-roll > div a.choose {
-    background: url("../images/adindex.gif") no-repeat center bottom #37a7d7;
-    opacity: 1;
-}
-#content .image-roll > div a span {
-    display: block;
-}
-#content .notice {
-    float: left;
-}
-#content .notice > a {
-    display: block;
-    overflow: hidden;
-}
-#content .notice img {
-    margin-bottom: 6px;
-    transition: 1s all;
-}
-#content .notice img:hover {
-    transform: rotate(720deg);
-}
-#content .news {
-    width: 228px;
-    border: 1px solid #ccc;
-}
-#content .news h5 {
-    height: 22px;
-    line-height: 22px;
-    text-indent: 1em;
-    border-bottom: 1px solid #ccc;
-}
-#content .news ul li {
-    height: 22px;
-    line-height: 22px;
-    text-indent: 1em;
-}
-#content .news ul li a {
-    font-size: 13px;
-    color: #666;
-}
-#content .news ul li a:hover {
-    color: #008cd7;
-    text-decoration: none;
-}
-#tooltip {
-    position: absolute;
-    border: 1px solid #333;
-    padding: 1px;
+#content .tab-box .hide {
     display: none;
-    background-color: #f7f5d1;
-    color: #333;
 }
-#content .brand-activity {
+#content .detail {
     float: left;
-    width: 790px;
-    margin-top: 12px;
+    width: 468px;
+    margin-left: 10px;
 }
-#content .brand-activity .title {
-    position: relative;
-    border-bottom: 1px solid #ccc;
+#content h3 {
+    padding: 5px 0;
 }
-#content .brand-activity .title h5 {
+#content .detail-list {
+    line-height: 25px;
+}
+#content .detail-list > li {
+    margin: 14px 0;
+}
+#content .sale strong {
+    margin-right: 5px;
+    font-weight: 700;
+    color: #FF5500;
+    font: 24px Tahoma,Arial,Helvetica,sans-serif;
+    vertical-align: middle;
+}
+#content .color li,
+#content .size li {
     display: inline-block;
-    height: 29px;
-    line-height: 29px;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
 }
-#content .brand-activity .title ul {
-    position: absolute;
-    right: 0;
-    top: 10px;
-}
-#content .brand-activity .title ul li {
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-    margin-left: 8px;
-}
-#content .brand-activity .title li a {
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    color: #000;
-    text-decoration: none;
-}
-#content .brand-activity .title li.on {
-    padding-bottom: 3px;
-    background: url("../images/chos.gif") no-repeat center bottom;
-}
-#content .brand-activity .title li.on a {
-    background-color: #fa5889;
-}
-#content .brand-activity .brand-content {
-    position: relative;
-    width: 780px;
-    height: 188px;
-    margin-top: 10px;
-    overflow: hidden;
-}
-#content .brand-activity .brand-list {
-    position: absolute;
-    width: 3200px;
-    height: 188px;
-    left: 0;
-}
-#content .brand-activity .brand-list li {
-    float: left;
-    width: 185px;
-    height: 188px;
-    padding: 0 5px;
-}
-#content .brand-activity .brand-list img {
+#content .color li img {
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border: 1px solid #bbb;
     cursor: pointer;
 }
-#content .brand-activity .brand-list li span {
-    display: block;
-    height: 24px;
-    line-height: 24px;
-    width: 100%;
-    font-size: 14px;
-    background-color: #efefef;
+#content .color li img.selected {
+    border: 1px solid #f60;
+}
+#content .size li {
+    border: 1px solid #bbb;
+    line-height: 30px;
     text-align: center;
+    cursor: pointer;
 }
-#content .brand-activity .brand-list li a {
+#content .size li.selected {
+    background-color: #f60;
+}
+#content .quantity select {
     display: block;
-    position: relative;
-    overflow: hidden;
-    color: #666;
-    text-decoration: none;
 }
-#zoom-mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff url('../images/zoom.gif') no-repeat center center;
-    opacity: .5;
+#content .score {
+    margin-bottom: 14px;
 }
-#content .brand-activity .brand-list li a:hover {
-    color: #008cd7;
-} 
+#content .score span {
+    display: block;
+}
+#content .score li {
+    display: inline-block;
+}
+#content .score li a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/star-matrix.gif) no-repeat 0 0;
+}
 #footer {
     width: 990px;
     margin: 0 auto;

@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html  lang="zh-CN">
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html" >
+<head>
+	<title>Jane Shopping</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/detail.css">
+    <link rel="stylesheet" href="styles/jquery.jqzoom.css">
+    <link rel="stylesheet" href="styles/skin/blue.css" id="skin-css">
+    <link rel="stylesheet" href="styles/thickbox.css">
+    <link rel="shortcut icon" href="http://omcbb8o2a.bkt.clouddn.com/logo.jpg">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/detail.js"></script>
+    <script type="text/javascript" src="scripts/jquery.cookie.js"></script>
+    <script type="text/javascript" src="scripts/jquery.jqzoom.js"></script>
+    <script type="text/javascript" src="scripts/use_jqzoom.js"></script>
+    <script type="text/javascript" src="scripts/jquery.thickbox.js"></script>
+    
+</head>
+<body>
+    <header id="header">
+        <div class="contWidth">
+            <a href="#" class="logo"><img src="images/logo.gif"></a>
+            <div class="search"><input type="text" name="search" id="input-search" value="输入商品名称"></div>
+            <ul class="skin">
+                <li id="blue" class="selected">蓝色</li>
+                <li id="purple">紫色</li>
+                <li id="red">红色</li>
+                <li id="skyblue">天蓝色</li>
+                <li id="yellow">黄色</li>
+                <li id="green">淡绿色</li>
+            </ul>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">推荐品牌</a>
+                        <div class="sub-nav">
+                            <div>
+                                <div class="title"><a href="#">推荐品牌：</a></div>
+                                <div class="item">
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span><a href="#nogo">安踏</a></span>
+                                    <span><a href="#nogo">奥康</a></span>
+                                    <span><a href="#nogo">骆驼</a></span>
+                                    <span><a href="#nogo">特步</a></span>
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span  class="no-border"><a href="#nogo">特步</a></span>   
+                                </div>
+                            </div>
+                            <div>
+                                <div class="title"><a href="#">推荐品牌：</a></div>
+                                <div class="item">
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span><a href="#nogo">安踏</a></span>
+                                    <span><a href="#nogo">奥康</a></span>
+                                    <span><a href="#nogo">骆驼</a></span>
+                                    <span><a href="#nogo">特步</a></span>
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span  class="no-border"><a href="#nogo">特步</a></span>   
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">女装</a>
+                        <div class="sub-nav">
+                            <div>
+                                <div class="title"><a href="#">女装：</a></div>
+                                <div class="item">
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span><a href="#nogo">安踏</a></span>
+                                    <span><a href="#nogo">奥康</a></span>
+                                    <span><a href="#nogo">骆驼</a></span>
+                                    <span><a href="#nogo">特步</a></span>
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span  class="no-border"><a href="#nogo">特步</a></span>   
+                                </div>
+                            </div>
+                            <div>
+                                <div class="title"><a href="#">女装：</a></div>
+                                <div class="item">
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span><a href="#nogo">安踏</a></span>
+                                    <span><a href="#nogo">奥康</a></span>
+                                    <span><a href="#nogo">骆驼</a></span>
+                                    <span><a href="#nogo">特步</a></span>
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span class="no-border"><a href="#nogo">特步</a></span>   
+                                </div>
+                            </div>                       
+                        </div>
+                    </li>
+                    <li><a href="#">男装</a>
+                        <div class="sub-nav">
+                            <div>
+                                <div class="title"><a href="#">男装：</a></div>
+                                <div class="item">
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span><a href="#nogo">安踏</a></span>
+                                    <span><a href="#nogo">奥康</a></span>
+                                    <span><a href="#nogo">骆驼</a></span>
+                                    <span><a href="#nogo">特步</a></span>
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span  class="no-border"><a href="#nogo">特步</a></span>   
+                                </div>
+                            </div>
+                            <div>
+                                <div class="title"><a href="#">男装：</a></div>
+                                <div class="item">
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span><a href="#nogo">安踏</a></span>
+                                    <span><a href="#nogo">奥康</a></span>
+                                    <span><a href="#nogo">骆驼</a></span>
+                                    <span><a href="#nogo">特步</a></span>
+                                    <span><a href="#nogo">耐克</a></span>
+                                    <span><a href="#nogo">阿迪达斯</a></span>
+                                    <span><a href="#nogo">达芙妮</a></span>
+                                    <span><a href="#nogo">李宁</a></span>
+                                    <span  class="no-border"><a href="#nogo">特步</a></span>   
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li><a href="#">鞋包配饰</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+	<div id="content">
+        <div class="catalog">
+            <h4>商品分类</h4>
+            <div>
+                <h5>推荐品牌</h5>
+                <ul>
+                    <li><a href="#">耐克</a></li>
+                    <li><a href="#" class="hot">阿迪达斯</a></li>
+                    <li><a href="#">达芙妮</a></li>
+                    <li><a href="#">李宁</a></li>
+                    <li><a href="#">安踏</a></li>
+                    <li><a href="#">奥康</a></li>
+                    <li><a href="#" class="hot">骆驼</a></li>
+                    <li><a href="#">特步</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>女装</h5>
+                <ul>
+                    <li><a href="#">呢大衣</a></li>
+                    <li><a href="#">T恤</a></li>
+                    <li><a href="#">羽绒</a></li>
+                    <li><a href="#">衬衫</a></li>
+                    <li><a href="#">羊绒衫</a></li>
+                    <li><a href="#">针织</a></li>
+                    <li><a href="#">连衣裙</a></li>
+                    <li><a href="#">皮外套</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>男装</h5>
+                <ul>
+                    <li><a href="#">衬衫</a></li>
+                    <li><a href="#">T恤衫</a></li>
+                    <li><a href="#">夹克</a></li>
+                    <li><a href="#">大皮衣</a></li>
+                    <li><a href="#">风衣</a></li>
+                    <li><a href="#">牛仔裤</a></li>
+                    <li><a href="#">西服</a></li>
+                    <li><a href="#">卫衣</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5>鞋包配饰</h5>
+                <ul>
+                    <li><a href="#">围巾</a></li>
+                    <li><a href="#">旅行箱</a></li>
+                    <li><a href="#">真皮包</a></li>
+                    <li><a href="#">韩版</a></li>
+                    <li><a href="#">达芙妮</a></li>
+                    <li><a href="#">单肩包</a></li>
+                    <li><a href="#">毛线</a></li>
+                    <li><a href="#">清仓靴子</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="item">
+            <div class="big-img">
+                <a href="images/pro_img/blue_one_big.jpg" class="jqzoom" rel='gal1' title="免烫高支棉条纹衬衣" >
+                    <img src="images/pro_img/blue_one_small.jpg" title="免烫高支棉条纹衬衣" alt="免烫高支棉条纹衬衣" id="bigImg" />
+                </a>
+            </div>
+            <span class="show-thickbox">
+                <a href="images/pro_img/blue_one_big.jpg" class="thickbox" id='thickImg' title="介绍文字">
+                    <img src="images/look.gif" alt="点击查看大图">
+                </a>
+            </span>
+            <ul class="small-img-list">
+                <li class="list-blue">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_one_small.jpg', largeimage: 'images/pro_img/blue_one_big.jpg'}">
+                        <img src="images/pro_img/blue_one.jpg">
+                    </a>
+                </li>
+                <li class="list-blue">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_two_small.jpg', largeimage: 'images/pro_img/blue_two_big.jpg'}">
+                        <img src="images/pro_img/blue_two.jpg">
+                    </a>
+                </li>
+                <li class="list-blue">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_three_small.jpg', largeimage: 'images/pro_img/blue_three_big.jpg'}">
+                        <img src="images/pro_img/blue_three.jpg">
+                    </a>
+                </li>
+
+                <li class="list-yellow hide">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/yellow_one_small.jpg', largeimage: 'images/pro_img/yellow_one_big.jpg'}">
+                        <img src="images/pro_img/yellow_one.jpg">
+                    </a>
+                </li>
+                <li class="list-yellow hide">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/yellow_two_small.jpg', largeimage: 'images/pro_img/yellow_two_big.jpg'}">
+                        <img src="images/pro_img/yellow_two.jpg">
+                    </a>
+                </li>
+                <li class="list-yellow hide">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/yellow_three_small.jpg', largeimage: 'images/pro_img/yellow_three_big.jpg'}">
+                        <img src="images/pro_img/yellow_three.jpg">
+                    </a>
+                </li>
+
+                <li class="list-green hide">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/green_one_small.jpg', largeimage: 'images/pro_img/green_one_big.jpg'}">
+                        <img src="images/pro_img/green_one.jpg">
+                    </a>
+                </li>
+                <li class="list-green hide">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/green_two_small.jpg', largeimage: 'images/green_img/blue_two_big.jpg'}">
+                        <img src="images/pro_img/green_two.jpg">
+                    </a>
+                </li>
+            </ul>
+            <div class="product-tab">
+                <ul class="tab-menu">
+                    <li class="selected">产品属性</li>
+                    <li>产品尺码表</li>
+                    <li>产品介绍</li>
+                </ul>
+                <div  class="tab-box">
+                    <div >
+                        沿用风靡百年的经典全棉牛津纺面料，通过领先的液氨整理技术，使面料的抗皱性能更上一层。延续简约、舒适、健康设计理念，特推出免烫、易打理的精细免烫牛津纺长袖衬衫系列。
+                    </div>
+                    <div class="hide">
+                        来自新疆无污染的生态棉花，采用紧密纺精梳棉纱，单经双纬的织造组织，造就了颗粒饱满、朴实无华、温润细腻的经典牛津纺，易洗快干、手感丰软、吸湿性好。设计师遵循布料完美肌理，立体剪裁，曲摆的现代人性化裁减，相得益彰，浑然天成。
+                    </div>
+                    <div class="hide">
+                        世界权威德国科德宝的衬和英国高士缝纫线使成衣领型自然舒展、永不变形，缝线部位平服工整、牢固耐磨；人性化的4片式后背打褶结构设计提供更舒适的活动空间；领尖扣的领型设计戴或不戴领带风格炯同、瞬间呈现；醇正天然设计，只为彰显自然荣耀。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <h3>免烫高支棉条纹衬衣</h3>
+            <ul class="detail-list">
+                <li class="description">全新精品高支棉衬衫再次提升品质，精选100%新疆长绒棉织造而成，平整度好，短绒少； 80-100高支双股经纬交织，带来无与伦比的舒适享受；而且面料反光效果好，具有漂亮的光泽，质感上佳，有利于免烫效果的维持！</li>
+                <li class="price">
+                    <span>价&#12288;&#12288;格：</span><del>379.00</del>元
+                </li>
+                <li class="sale">
+                    <span>促&#12288;&#12288;销：</span><strong>200.00</strong>元
+                </li>
+                <li class="color" id="select-color">
+                    <span>颜&#12288;&#12288;色：</span><span id="color-text">蓝白</span>
+                    <ul>
+                        <li><img src="images/pro_img/blue.jpg"  class="selected" alt="蓝白"></li>
+                        <li><img src="images/pro_img/yellow.jpg" alt="黄白"></li>
+                        <li><img src="images/pro_img/green.jpg" alt="粉绿"></li>
+                    </ul>
+                </li>
+                <li class="size">
+                    <span>尺&#12288;&#12288;寸：</span><span id="size-text">未选择</span>
+                    <ul>
+                        <li>S</li>
+                        <li>L</li>
+                        <li>SL</li>
+                        <li>LL</li>
+                    </ul>
+                </li>
+                <li class="quantity">
+                    <span>数&#12288;&#12288;量：</span>
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </li>
+                <li class="total">
+                    <span>总&#12288;&#12288;计：</span><span id="price-text">200</span>元
+                </li>
+            </ul>
+            <div class="score">
+                <span>给商品评分：</span>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <img src="images/btn_cart.png" alt="放入购物车">
+        </div>
+    </div>
+	<footer id="footer">Copyright © 2009 - 2012 JaneShop Inc.</footer>
+</body>
+</html>
