@@ -313,15 +313,77 @@ a:hover {
 #content .score span {
     display: block;
 }
-#content .score li {
-    display: inline-block;
-}
-#content .score li a {
-    display: inline-block;
-    width: 16px;
+#content .score ul {
+    position: relative;
     height: 16px;
+    overflow: hidden;
     background: url(../images/star-matrix.gif) no-repeat 0 0;
 }
+#content .score ul.click1 {
+    background-position: 0 -16px;
+}
+#content .score ul.click2 {
+    background-position: 0 -32px;
+}
+#content .score ul.click3 {
+    background-position: 0 -48px;
+}
+#content .score ul.click4 {
+    background-position: 0 -64px;
+}
+#content .score ul.click5 {
+    background-position: 0 -80px;
+}
+#content .score li {
+    float: left;
+}
+#content .score li a {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    text-indent: -999px;
+    z-index: 200;/*鼠标移走时能还原*/
+}
+#content .score .one a {
+    left: 0;
+}
+#content .score .two a {
+    left: 16px;
+}
+#content .score .three a {
+    left: 32px;
+}
+#content .score .four a {
+    left: 48px;
+}
+#content .score .five a {
+    left: 64px;
+}
+#content .score li a:hover {
+    /*关键：鼠标悬浮时a变为5颗星宽度*/
+    width: 80px;
+    height: 16px;
+    background: url(../images/star-matrix.gif) no-repeat 0 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+#content .score .one a:hover {
+    background-position: 0 -96px;
+}
+#content .score .two a:hover {
+    background-position: 0 -112px;
+}
+#content .score .three a:hover {
+    background-position: 0 -128px;
+}
+#content .score .four a:hover {
+    background-position: 0 -144px;
+}
+#content .score .five a:hover {
+    background-position: 0 -160px;
+}
+
 #footer {
     width: 990px;
     margin: 0 auto;

@@ -115,6 +115,7 @@ $(function(){
         //数量价格联动
         var $priceText = $('#price-text');
         var price = $priceText.text();
+        //点击下拉列表触发select的change事件
         $('.quantity select').change(function () {
             var num = $(this).val();
             $priceText.text(num * price);
@@ -123,8 +124,39 @@ $(function(){
     
     $(function () {
         //评分效果
-        $('.score a').on('mouseover', function () {
-            // var index = 
+        // var index = 0;
+        // $('.score li').hover(function () {
+        //     index = $(this).text();
+        //     $(this).parent('ul').addClass('hover' + index);
+        // }, function () {
+        //     $(this).parent('ul').removeClass('hover' + index);
+        // });
+
+        $('.score li a').on('click', function () {
+            var index = $(this).text();
+            $(this).parent().parent().attr('class', 'click' + index);
+            var title = $(this).attr('title');
+            alert('您给此商品的评分是：' + title);
+            return false; //防止跳转
+        });
+    })
+
+    $(function () {
+        //添加购物车
+        $('#shopping-cart').on('click', function () {
+            var name = $('.detail > h3').text();
+            var color = $('#color-text').text();
+            var size = $('#size-text').text();
+            var num = $('.quantity option:selected').text();
+            var price = $('#price-text').text();
+            var dialogContent = "感谢您的购买。您购买的\n" +
+                "产品是：" + name + "；\n" +
+                "颜色是：" + color + "；\n" +
+                "大小是：" + size + "；\n" +
+                "数量是：" + num + "；\n" +
+                "价格是：" + price + "；\n"
+            alert(dialogContent);
+            return false;
         });
     })
 })
