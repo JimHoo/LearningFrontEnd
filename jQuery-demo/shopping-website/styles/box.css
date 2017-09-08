@@ -13,7 +13,7 @@
 }
 
 /* box */
-.simplemodal-container .ico-ok, .simplemodal-container .ico-error, .simplemodal-container .ico-info, .simplemodal-container .ico-question, .simplemodal-container .ico-warn, .simplemodal-container .ico-wait,.simplemodal-container .modalCloseImg,.simplemodal-container .btn-close, .simplemodal-container .btn-close-b{background:url(../images/box.png) no-repeat;display:inline-block;width:32px;height:32px;}
+.simplemodal-container .ico-ok, .simplemodal-container .ico-error, .simplemodal-container .ico-info, .simplemodal-container .ico-question, .simplemodal-container .ico-warn, .simplemodal-container .ico-wait,.simplemodal-container .modalCloseImg,.simplemodal-container .btn-close, .simplemodal-container .btn-close-b{background:url(http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/box.png) no-repeat;display:inline-block;width:32px;height:32px;}
 .simplemodal-container .ico-ok{background-position:-66px 0;}
 .simplemodal-container .ico-error{background-position:0 0;}
 .simplemodal-container .ico-info{background-position:-33px 0;}
