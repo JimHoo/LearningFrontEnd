@@ -15,7 +15,7 @@ a:hover {
     text-decoration: underline;
 }
 #header {
-    background: url("../images/headerbg.png") repeat-x 0 0;
+    background: url("http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/headerbg.png") repeat-x 0 0;
     height: 105px;
 }
 #header .contWidth {
@@ -46,7 +46,7 @@ a:hover {
     float: left;
     width: 15px;
     height: 15px;
-    background-image: url(../images/theme.gif);
+    background-image: url(http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/theme.gif);
     text-indent: -9999px;
 }
 #header .skin #blue {
@@ -195,7 +195,7 @@ a:hover {
 }
 #content .catalog li a.hot:after {
     content: "";
-    background: url("../images/hot.gif") no-repeat 0 0;
+    background: url("http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/hot.gif") no-repeat 0 0;
     position: absolute;
     width: 21px;
     height: 16px;
@@ -241,7 +241,7 @@ a:hover {
     margin-right: 0;
 }
 #content .image-roll > div a.choose {
-    background: url("../images/adindex.gif") no-repeat center bottom #37a7d7;
+    background: url("http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/adindex.gif") no-repeat center bottom #37a7d7;
     opacity: 1;
 }
 #content .image-roll > div a span {
@@ -328,7 +328,7 @@ a:hover {
 }
 #content .brand-activity .title li.on {
     padding-bottom: 3px;
-    background: url("../images/chos.gif") no-repeat center bottom;
+    background: url("http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/chos.gif") no-repeat center bottom;
 }
 #content .brand-activity .title li.on a {
     background-color: #fa5889;
@@ -377,7 +377,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fff url('../images/zoom.gif') no-repeat center center;
+    background: #fff url('http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/zoom.gif') no-repeat center center;
     opacity: .5;
 }
 #content .brand-activity .brand-list li a:hover {

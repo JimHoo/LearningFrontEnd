@@ -143,19 +143,24 @@ $(function(){
 
     $(function () {
         //添加购物车
+        var $product = $('.detail');
         $('#shopping-cart').on('click', function () {
-            var name = $('.detail > h3').text();
-            var color = $('#color-text').text();
-            var size = $('#size-text').text();
-            var num = $('.quantity option:selected').text();
-            var price = $('#price-text').text();
-            var dialogContent = "感谢您的购买。您购买的\n" +
+            var name = $product.find('h3:first').text();
+            var color = $product.find('#color-text').text();
+            var size = $product.find('#size-text').text();
+            var num = $product.find('.quantity option:selected').text();//也可直接$select.val()获取值
+            var price = $product.find('#price-text').text();
+            var dialogTitle = "感谢您的购买";
+            var dialogContent = "您购买的\n" +
                 "产品是：" + name + "；\n" +
                 "颜色是：" + color + "；\n" +
                 "大小是：" + size + "；\n" +
                 "数量是：" + num + "；\n" +
                 "价格是：" + price + "；\n"
-            alert(dialogContent);
+            //alert(dialogContent);
+            $('#dialog-title').html(dialogTitle);
+            $('#dialog-content').html(dialogContent);
+            $('#basic-dialog-ok').modal();
             return false;
         });
     })

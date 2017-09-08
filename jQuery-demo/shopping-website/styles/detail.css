@@ -15,7 +15,7 @@ a:hover {
     text-decoration: underline;
 }
 #header {
-    background: url("../images/headerbg.png") repeat-x 0 0;
+    background: url("http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/headerbg.png") repeat-x 0 0;
     height: 105px;
 }
 #header .contWidth {
@@ -46,7 +46,7 @@ a:hover {
     float: left;
     width: 15px;
     height: 15px;
-    background-image: url(../images/theme.gif);
+    background-image: url(http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/theme.gif);
     text-indent: -9999px;
 }
 #header .skin #blue {
@@ -195,7 +195,7 @@ a:hover {
 }
 #content .catalog li a.hot:after {
     content: "";
-    background: url("../images/hot.gif") no-repeat 0 0;
+    background: url("http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/hot.gif") no-repeat 0 0;
     position: absolute;
     width: 21px;
     height: 16px;
@@ -317,7 +317,7 @@ a:hover {
     position: relative;
     height: 16px;
     overflow: hidden;
-    background: url(../images/star-matrix.gif) no-repeat 0 0;
+    background: url(http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/star-matrix.gif) no-repeat 0 0;
 }
 #content .score ul.click1 {
     background-position: 0 -16px;
@@ -363,7 +363,7 @@ a:hover {
     /*关键：鼠标悬浮时a变为5颗星宽度*/
     width: 80px;
     height: 16px;
-    background: url(../images/star-matrix.gif) no-repeat 0 0;
+    background: url(http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/star-matrix.gif) no-repeat 0 0;
     left: 0;
     overflow: hidden;
     z-index: 2;

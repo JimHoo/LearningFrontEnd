@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/jquery.jqzoom.css">
     <link rel="stylesheet" href="styles/skin/blue.css" id="skin-css">
     <link rel="stylesheet" href="styles/thickbox.css">
+    <link rel="stylesheet" href="styles/box.css">
     <link rel="shortcut icon" href="http://omcbb8o2a.bkt.clouddn.com/logo.jpg">
     <script type="text/javascript" src="scripts/jquery.js"></script>
     <script type="text/javascript" src="scripts/detail.js"></script>
@@ -16,12 +17,12 @@
     <script type="text/javascript" src="scripts/jquery.jqzoom.js"></script>
     <script type="text/javascript" src="scripts/use_jqzoom.js"></script>
     <script type="text/javascript" src="scripts/jquery.thickbox.js"></script>
-    
+    <script type="text/javascript" src="scripts/jquery.simplemodal.js"></script>
 </head>
 <body>
     <header id="header">
         <div class="contWidth">
-            <a href="#" class="logo"><img src="images/logo.gif"></a>
+            <a href="#" class="logo"><img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/logo.gif"></a>
             <div class="search"><input type="text" name="search" id="input-search" value="输入商品名称"></div>
             <ul class="skin">
                 <li id="blue" class="selected">蓝色</li>
@@ -218,56 +219,56 @@
         </div>
         <div class="item">
             <div class="big-img">
-                <a href="images/pro_img/blue_one_big.jpg" class="jqzoom" rel='gal1' title="免烫高支棉条纹衬衣" >
-                    <img src="images/pro_img/blue_one_small.jpg" title="免烫高支棉条纹衬衣" alt="免烫高支棉条纹衬衣" id="bigImg" />
+                <a href="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_one_big.jpg" class="jqzoom" rel='gal1' title="免烫高支棉条纹衬衣" >
+                    <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_one_small.jpg" title="免烫高支棉条纹衬衣" alt="免烫高支棉条纹衬衣" id="bigImg" />
                 </a>
             </div>
             <span class="show-thickbox">
-                <a href="images/pro_img/blue_one_big.jpg" class="thickbox" id='thickImg' title="介绍文字">
-                    <img src="images/look.gif" alt="点击查看大图">
+                <a href="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_one_big.jpg" class="thickbox" id='thickImg' title="介绍文字">
+                    <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/look.gif" alt="点击查看大图">
                 </a>
             </span>
             <ul class="small-img-list">
                 <li class="list-blue">
-                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_one_small.jpg', largeimage: 'images/pro_img/blue_one_big.jpg'}">
-                        <img src="images/pro_img/blue_one.jpg">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_one_small.jpg', largeimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_one_big.jpg'}">
+                        <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_one.jpg">
                     </a>
                 </li>
                 <li class="list-blue">
-                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_two_small.jpg', largeimage: 'images/pro_img/blue_two_big.jpg'}">
-                        <img src="images/pro_img/blue_two.jpg">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_two_small.jpg', largeimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_two_big.jpg'}">
+                        <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_two.jpg">
                     </a>
                 </li>
                 <li class="list-blue">
-                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_three_small.jpg', largeimage: 'images/pro_img/blue_three_big.jpg'}">
-                        <img src="images/pro_img/blue_three.jpg">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_three_small.jpg', largeimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_three_big.jpg'}">
+                        <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue_three.jpg">
                     </a>
                 </li>
 
                 <li class="list-yellow hide">
-                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/yellow_one_small.jpg', largeimage: 'images/pro_img/yellow_one_big.jpg'}">
-                        <img src="images/pro_img/yellow_one.jpg">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_one_small.jpg', largeimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_one_big.jpg'}">
+                        <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_one.jpg">
                     </a>
                 </li>
                 <li class="list-yellow hide">
-                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/yellow_two_small.jpg', largeimage: 'images/pro_img/yellow_two_big.jpg'}">
-                        <img src="images/pro_img/yellow_two.jpg">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_two_small.jpg', largeimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_two_big.jpg'}">
+                        <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_two.jpg">
                     </a>
                 </li>
                 <li class="list-yellow hide">
-                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/yellow_three_small.jpg', largeimage: 'images/pro_img/yellow_three_big.jpg'}">
-                        <img src="images/pro_img/yellow_three.jpg">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_three_small.jpg', largeimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_three_big.jpg'}">
+                        <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow_three.jpg">
                     </a>
                 </li>
 
                 <li class="list-green hide">
-                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/green_one_small.jpg', largeimage: 'images/pro_img/green_one_big.jpg'}">
-                        <img src="images/pro_img/green_one.jpg">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/green_one_small.jpg', largeimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/green_one_big.jpg'}">
+                        <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/green_one.jpg">
                     </a>
                 </li>
                 <li class="list-green hide">
-                    <a href="#" rel="{gallery: 'gal1', smallimage: 'images/pro_img/green_two_small.jpg', largeimage: 'images/green_img/blue_two_big.jpg'}">
-                        <img src="images/pro_img/green_two.jpg">
+                    <a href="#" rel="{gallery: 'gal1', smallimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/green_two_small.jpg', largeimage: 'http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/green_img/blue_two_big.jpg'}">
+                        <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/green_two.jpg">
                     </a>
                 </li>
             </ul>
@@ -303,9 +304,9 @@
                 <li class="color" id="select-color">
                     <span>颜&#12288;&#12288;色：</span><span id="color-text">蓝白</span>
                     <ul>
-                        <li><img src="images/pro_img/blue.jpg"  class="selected" alt="蓝白"></li>
-                        <li><img src="images/pro_img/yellow.jpg" alt="黄白"></li>
-                        <li><img src="images/pro_img/green.jpg" alt="粉绿"></li>
+                        <li><img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/blue.jpg"  class="selected" alt="蓝白"></li>
+                        <li><img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/yellow.jpg" alt="黄白"></li>
+                        <li><img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/pro_img/green.jpg" alt="粉绿"></li>
                     </ul>
                 </li>
                 <li class="size">
@@ -343,11 +344,29 @@
             </div>
             <div  id="shopping-cart">
                 <a href="#">
-                    <img src="images/btn_cart.png" alt="放入购物车">
+                    <img src="http://omcbb8o2a.bkt.clouddn.com/image/github/LearningFrontEnd/jQuery-demo/shopping-website/images/btn_cart.png" alt="放入购物车">
                 </a>
             </div> 
         </div>
     </div>
 	<footer id="footer">Copyright © 2009 - 2012 JaneShop Inc.</footer>
+
+    <!-- 普通弹出层 [[ -->  
+    <div id="basic-dialog-ok">
+        <div class="box-title show"><h2>提示</h2></div>  
+        <div class="box-main">
+            <div class="tips">      
+                <span class="tips-ico">
+                    <span class="ico-ok"><!-- 图标 --></span>
+                </span>      
+                <div class="tips-content">        
+                    <div class="tips-title" id="dialog-title"></div>        
+                    <div class="tips-line" id="dialog-content"></div>
+                </div>    
+            </div>
+            <div class="box-buttons"><button type="button" class="simplemodal-close">关 闭</button></div>
+        </div>  
+    </div>
+    <!-- 普通弹出层 ]] -->
 </body>
 </html>
